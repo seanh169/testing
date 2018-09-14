@@ -1,0 +1,146 @@
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../../../assets/img/Paint_Boothb.jpg" alt="Los Angeles">
+    </div>
+    <div class="carousel-item">
+        <img src="../../../assets/img/Paint_Boothb.jpg" alt="Los Angeles">
+      <!-- <img src="../../../assets/img/Slider-2.jpg" alt="Chicago" style="width:100%"> -->
+    </div>
+    <div class="carousel-item">
+        <img src="../../../assets/img/Paint_Boothb.jpg" alt="Los Angeles">
+      <!-- <img src="../../../assets/img/CAB-hybrid-slider1.jpg" alt="New York" style="width:100%"> -->
+    </div>
+  </div>
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+
+<div class="container" id="certs">
+  <div class="row justify-content-center flex-wrap text-center">
+      <div class="col">
+          <a href="https://www.ase.com/rb">
+            <img src="../../../assets/img/certs/icar.png" alt="icar-cert">
+          </a>
+      </div>
+      <div class="col">
+          <a href="https://www.ase.com/rb">
+            <img src="../../../assets/img/certs/icar2.png" alt="icar-cert">
+          </a>
+        </div>
+      <div class="col">
+          <a href="https://midatlantic.aaa.com/auto-repair">
+            <img src="../../../assets/img/certs/aaa2.png" alt="aaa-cert">
+          </a>
+      </div>
+ 
+    <div class="col">
+        <a href="http://www.fixhybrid.com/acdc-qual/"><img src="../../../assets/img/certs/acdc2.png" alt="acdc-cert">
+        </a>
+    </div>
+    <div class="col">
+        <a href="http://www.mva.maryland.gov/_resources/docs/MSP-Initial-Application-For-Maryland-Authorized-Inspection-Station-License.pdf">
+          <img src="../../../assets/img/certs/ais.png" alt="ais-cert">
+        </a>
+    </div>
+    <div class="col">
+        <a href="https://www.angieslist.com/companylist/us/md/columbia/columbia-auto-body-reviews-2340110.htm">
+          <img src="../../../assets/img/certs/angies2.png" alt="angies-cert">
+      </a>
+    </div>
+  
+    <div class="col">
+        <a href="http://mde.maryland.gov/programs/air/mobilesources/pages/VEIP.aspx">
+          <img src="../../../assets/img/certs/greencar.png" alt="green-cert">
+        </a>
+    </div>
+    <div class="col">
+        <a href="http://mde.maryland.gov/programs/air/mobilesources/pages/VEIP.aspx">
+          <img src="../../../assets/img/certs/veip2.png" alt="veip-cert">
+        </a>
+    </div>
+    <div class="col">
+        <a href="https://www.angieslist.com/companylist/us/md/columbia/columbia-auto-body-reviews-2340110.htm">
+          <img src="../../../assets/img/certs/angies1.png" alt="angies-cert">
+      </a>
+    </div>
+ 
+  </div>
+</div>
+
+<div class="bar"></div>
+
+
+<div class="container">
+  <div class="row justify-content-center">
+      <h1 class="flex-sm-wrap">Testimonials</h1>
+  </div>
+    
+<div class="row flex-wrap">
+  <div class="col-sm box flex-sm-wrap justify-content-center">
+      <div>
+          <hr>
+          <ngb-rating [(rate)]="currentRate1" max="5">
+            <ng-template let-fill="fill" let-index="index">
+              <span class="star" [class.filled]="fill === 100">&#9733;</span>
+            </ng-template>
+          </ngb-rating>
+          
+          "Great body shop who stands by there work. Did a good job for us on our fusion and have not had to go back for anything yet."
+        </div>
+    <div>
+      <div class= "row justify-content-center">
+        <p class="name">- Jihfandria Lindriguez -</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm box flex-sm-wrap justify-content-center">
+    <div>
+        <hr>
+      <ngb-rating [(rate)]="currentRate2" max="5">
+        <ng-template let-fill="fill" let-index="index">
+          <span class="star" [class.filled]="fill === 100">&#9733;</span>
+        </ng-template>
+      </ngb-rating>
+      "Great service. Great people. Great place. Great job! My car looks like new! If you need body work, Columbia Auto Body on Dobbin Rd is the place to go."
+    </div>
+    <div>
+        <div class= "row justify-content-center">
+          <p class="name">- Katherine O'Leary -</p>
+        </div>
+      </div>
+  </div>
+  <div class="col-sm box flex-sm-wrap justify-content-center">
+    <div>
+      <hr>
+      <ngb-rating [(rate)]="currentRate3" max="5">
+        <ng-template let-fill="fill" let-index="index">
+          <span class="star" [class.filled]="fill === 100">&#9733;</span>
+        </ng-template>
+      </ngb-rating>
+      "The work was exceptional. I have owned many cars over the past several decades, and I rate the service, quality of workmanship, professionalism, timeliness, communication, and willingness to go the extra mile as 10+."
+    </div>
+    <div>
+      <div class= "row justify-content-center">
+        <p class="name">- Frederick Corrales III -</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

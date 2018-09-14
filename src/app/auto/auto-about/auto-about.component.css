@@ -1,0 +1,23 @@
+/* #main {
+    margin: 100px auto;
+} */
+/* h1 {
+    margin: 100px;
+} */
+h1 {
+    margin: 0 0 0 0px;
+}
+ul {
+    margin-left: 40px;
+}
+/* img {
+    margin-top: 30px;
+    width: 100%;
+} */
+img {
+    margin: 10px 0 0 0;
+}
+
+#main {
+    margin-top: 40px;
+}
